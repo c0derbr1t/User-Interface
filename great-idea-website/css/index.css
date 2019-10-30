@@ -48,8 +48,12 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 html, body {
@@ -64,3 +68,57 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 25px;
+}
+
+header {
+	text-align: center;
+}
+
+.navigation {
+	padding-right: 200px;
+}
+
+.navItem {
+	color: gray;
+	text-decoration: none;
+	font-size: 16px;
+	position: relative;
+	top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo {
+	position: absolute;
+	right: 50px;
+}
+
+.headerContainer {
+	margin-top: 175px;
+}
+
+.title {
+	margin-right: 450px;
+}
+
+.title h1 {
+	font-size: 80px;
+}
+
+
+#headerImage {
+	position: absolute;
+	right: 50px;
+	top: 150px;
+}
+
+#headerButton {
+	font-size: 17px;
+	color: black;
+	border: 1.25px solid black;
+	margin: 25px 42%;
+	line-height: 1.8;
+}
