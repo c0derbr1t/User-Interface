@@ -78,7 +78,7 @@ header {
 }
 
 .navigation {
-	padding-right: 200px;
+	padding-right: 25%;
 }
 
 .navItem {
@@ -121,4 +121,19 @@ header {
 	border: 1.25px solid black;
 	margin: 25px 42%;
 	line-height: 1.8;
+}
+
+hr {
+	border: 1px solid black;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#doubleSection {
+
+}
+
+.twin {
+	display: inline-block;
+	width: 20%;
 }
