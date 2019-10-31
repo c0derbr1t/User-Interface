@@ -76,10 +76,16 @@ header {
 
 .navigation {
 	padding-right: 25%;
+	position: fixed;
+	top: 20px;
+	background: #002449;
+	height: 45px;
+	border-radius: 25px;
+	z-index: 1;
 }
 
 .navItem {
-	color: gray;
+	color: #e0ffff;
 	text-decoration: none;
 	font-size: 16px;
 	position: relative;
@@ -91,6 +97,11 @@ header {
 .logo {
 	position: absolute;
 	right: 5%;
+	background: #e0ffff;
+	height: 45px;
+	padding: 7px 25px;;
+	opacity: 0.8;
+	right: 0px;
 }
 
 /* .headContainer {
